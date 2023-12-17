@@ -63,6 +63,7 @@ for neighborhood_function in neighborhood_functions:
                     best_learning_rate=learning_rate
                     best_size=size
                     best_topology=topology
+                    best_score=ari
 
                 # U-matrix
                 umatrix = som.distance_map()
